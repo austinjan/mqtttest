@@ -1,0 +1,9 @@
+{
+  "name": "ls",
+  "version": "0.0.1",
+  "description": "mqtt.js testing & study",
+  "main": "index.js",
+  "repository": "https://github.com/austinjan/mqtttest.git",
+  "author": "austinjan <austin.jan@gmail.com>",
+  "license": "MIT"
+}
