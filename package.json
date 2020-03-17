@@ -1,9 +1,28 @@
 {
-  "name": "ls",
+  "name": "mqtttest",
   "version": "0.0.1",
   "description": "mqtt.js testing & study",
   "main": "index.js",
   "repository": "https://github.com/austinjan/mqtttest.git",
   "author": "austinjan <austin.jan@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development",
+    "webserver": "webpack-dev-server --port 3000 --hot --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "pack-cli": "^1.4.5",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "web": "^0.0.2",
+    "webpack": "^4.42.0"
+  }
 }
