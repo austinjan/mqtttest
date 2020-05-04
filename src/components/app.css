@@ -1,0 +1,15 @@
+.disabled {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navli {
+  display: inline;
+  margin-left: 2em;
+}
